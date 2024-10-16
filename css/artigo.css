@@ -1,0 +1,49 @@
+.main-area {
+    align-items: start;
+    padding: 15px 200px;
+}
+
+@media (max-width: 992px) {
+    .main-area {
+        padding: 15px 100px;
+    }    
+}
+
+@media (max-width: 768px) {
+    .main-area {
+        padding: 15px 20px;
+    }    
+}
+
+.article-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    /* margin-bottom: 20px; */
+}
+
+.article-audio {
+    margin: 15px 0;
+    width: 100%;
+    /* border: 1px solid #ddd; */
+}
+
+.article-audio audio {
+    width: 100%;
+}
+
+
+.article-title2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+.article-content {
+    color: #808080;
+    padding: 0 30px;
+}
+
+
